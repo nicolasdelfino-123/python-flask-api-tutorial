@@ -9,7 +9,7 @@ todos = [
 # Route to retrieve/RECUPERA the list of todos
 @app.route('/todos', methods=['GET'])
 def hello_world():
-# Convert the todos list to a JSON response format
+# Convert the todos list to a JSON response format 
     json_text = jsonify(todos)
 
 # Return the JSON response to the front-end
